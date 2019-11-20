@@ -1,0 +1,59 @@
+body {
+  background: #aaa;
+  overflow-y: auto;
+  font-family: 'Roboto Mono', Consolas, 'Courier New', Courier, monospace;
+  font-weight: bold;
+  color: #293f99;
+  
+  header {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+    
+    img {
+      width: 100%;
+      height: auto;
+    }
+  }
+  
+  main {
+    text-align: center;
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+  }
+  
+}
+
+pre, input, form, button {
+  font-size: 24px;
+  font-family: inherit;
+  font-weight: inherit;
+  color: inherit;
+}
+
+form {
+  display: flex;
+  margin-bottom: 1em;
+  
+  label {
+    display: block;
+    flex-grow: 1;
+    margin-bottom: 5px;
+    
+    input {
+      display: inline-block;
+      border: none;
+      border: 1px solid lightgray;
+      background: none;
+      width: calc(100% - 4ch);
+      padding: 0.3em;
+      box-sizing: border-box;
+    }
+  }
+  button {
+    outline: none;
+    border: none;
+    background: none;
+  }
+}
